@@ -1,0 +1,162 @@
+.container {
+  max-width: 1440px;
+  display: flex;
+  margin: 0 auto;
+
+}
+
+.nav-link {
+ height: 30px;
+  list-style: none;
+  background: #3e3f46;
+  padding: 15px;
+  display: flex
+}
+
+
+.header{
+  background: #222B38;
+  
+}
+
+.initials{
+  margin: 10px;
+  padding: 10px;
+  font-size: larger;
+  color: #fff;
+  line-height: 3px;
+}
+
+.secondary_header{
+  margin: 10px;
+  padding: 10px;
+  font-size: small;
+  color: #fff;
+  line-height: 1px;
+}
+
+.main{
+  background-color: #1E1E1E;
+}
+
+
+.body {
+  min-height: 100vh;
+  margin: 0; padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.logo_rs_school{
+  float: right;
+  width: 150px;
+}
+
+.ico{
+  width: 30px;
+}
+
+.section-item a {
+  color: #3e3f46;
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+.section-item a:hover {
+  color: #4d2323;
+}
+
+.nav{
+  width: 55px;
+}
+
+
+.mainPicture{
+ width: 265px;
+  margin-left: 125px;
+  position: relative;
+}
+
+.nav-list{
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+
+ul li a{
+  text-decoration: none;
+  color: #3e3f46;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  
+}
+
+ul li:hover a{
+  color:#fff;
+  background: #00c483;
+  width: 100px;
+  transform: translateX(+50px);
+}
+
+ul li p{
+  font-size: 1px;
+  color: #3e3f46;
+  
+}
+
+ul li:hover p{
+  font-size: medium;
+  transform: translateX(-25px);
+  color:#fff;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section{
+  width: 50%;
+  border-bottom-style: dashed;
+  border-color: aqua;
+}
+
+.section_header{
+ 
+  padding-bottom: 15px;
+  margin: 0;
+  padding: 20px;
+  vertical-align: middle;
+  
+}
+
+.section_title{
+  display:flex;
+  color:#fff;
+  
+}
+
+.spisok{
+  color:#fff;
+  line-height: 0.5px;
+}
+
+code{
+  color:#fff;
+}
+
+.footer{
+  display: flex;
+  background-color: #f0ad4e;
+  padding: 5px;
+}
+
+.logo{
+  width:100%;
+  display:flex;
+  justify-content:flex-end;
+}
