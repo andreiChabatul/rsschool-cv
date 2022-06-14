@@ -48,9 +48,6 @@
   justify-content: center;
 }
 
-.background{
-  background-color: #f0ad4e;
-}
 
 .logo_rs_school{
   float: right;
@@ -132,12 +129,13 @@ ul li:hover p{
  
   padding-bottom: 15px;
   margin: 0;
-  padding: 10px;
+  padding: 20px;
   vertical-align: middle;
   
 }
 
 .section_title{
+  display:flex;
   color:#fff;
   
 }
@@ -151,8 +149,14 @@ code{
   color:#fff;
 }
 
+.footer{
+  display: flex;
+  background-color: #f0ad4e;
+  padding: 5px;
+}
 
-
-
-
-
+.logo{
+  width:100%;
+  display:flex;
+  justify-content:flex-end;
+}
